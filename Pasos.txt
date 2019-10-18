@@ -1,0 +1,6 @@
+crear un proyecto 
+	dotnet new api -n backend
+Estos paquetes permiten la conexion con mysql se instalan dentro del proyecto que se creo en el paso anterior
+dotnet add package Microsoft.EntityFrameworkCore --version 2.2.6
+dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 2.2.0
+dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.17
